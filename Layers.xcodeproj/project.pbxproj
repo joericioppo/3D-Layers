@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* LayersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* LayersViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* LayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* LayersViewController.m */; };
+		5236B084104C588100F95A53 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5236B083104C588100F95A53 /* icon.png */; };
 		529903480F7FCC9D004ECB01 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529903470F7FCC9D004ECB01 /* QuartzCore.framework */; };
 		5299041B0F806EC4004ECB01 /* AITransformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5299041A0F806EC4004ECB01 /* AITransformView.m */; };
 		52B3E1590F82A1D30097C68E /* Trackball.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B3E1570F82A1D30097C68E /* Trackball.m */; };
@@ -33,6 +34,7 @@
 		28D7ACF70DDB3853001CB0EB /* LayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayersViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Layers_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Layers_Prefix.pch; sourceTree = "<group>"; };
+		5236B083104C588100F95A53 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		529903470F7FCC9D004ECB01 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		529904190F806EC4004ECB01 /* AITransformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AITransformView.h; sourceTree = "<group>"; };
 		5299041A0F806EC4004ECB01 /* AITransformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AITransformView.m; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				2899E5210DE3E06400AC0155 /* LayersViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Layers-Info.plist */,
+				5236B083104C588100F95A53 /* icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* LayersViewController.xib in Resources */,
+				5236B084104C588100F95A53 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
