@@ -13,17 +13,14 @@
 
 @interface AITransformView : UIView {
 	
-	CALayer			  *rootLayer;
-	CATransformLayer  *transformLayer;
-	Trackball		  *trackball;
-			
-//	CGPoint startingLocation;
-//	CGFloat startingTouchDistance, previousScale;
+	CALayer						*rootLayer;
+	CATransformLayer		*transformLayer;
+	Trackball						*trackball;
+
 }
 
 @property(nonatomic, retain) Trackball *trackball;
 
 - (void)setupLayers;
-//- (float)distanceBetweenTouches:(NSSet *)touches;
 
 @end
