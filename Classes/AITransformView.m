@@ -153,7 +153,7 @@ CGFloat DegreesToRadians(CGFloat degrees)
 #pragma mark Touch Handling
 
 
-//Trackball Version by Bill Dudley
+//Trackball Version by Bill Dudney
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	CGPoint location = [[touches anyObject] locationInView:self];
 	if(nil == self.trackball) {
